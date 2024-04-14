@@ -1,7 +1,13 @@
 import React from "react";
+import NavigateBar from "../components/NavigateBar";
 
 const Experience = () => {
-  return <div>Experience</div>;
+  return (
+    <>
+      <NavigateBar />
+      <h1>Experience</h1>
+    </>
+  );
 };
 
 export default Experience;
