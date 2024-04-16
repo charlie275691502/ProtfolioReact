@@ -1,4 +1,3 @@
-import React from "react";
 import { useNavigate } from "react-router-dom";
 
 interface Props {
@@ -18,7 +17,7 @@ const ProjectCard = ({ id, title, image }: Props) => {
       <img src={image} className="card-img-top" alt="image"></img>
 
       <div className="card-body">
-        <h1 className="card-text">{title}</h1>
+        <h3 className="card-text">{title}</h3>
       </div>
     </div>
   );

@@ -1,6 +1,4 @@
-import EmailIcon from "../components/EmailIcon";
-import GithubIcon from "../components/GithubIcon";
-import LinkedinIcon from "../components/LinkedinIcon";
+import ContactIcons from "./ContactIcons";
 
 const NavigateBar = () => {
   return (
@@ -42,10 +40,10 @@ const NavigateBar = () => {
 
       <div className="collapse navbar-collapse" id="navbarToggler">
         <ul className="navbar-nav ms-auto mt-2 mt-lg-0">
-          <li className="nav-item active">
-            <GithubIcon url="https://github.com/charlie275691502" />
-            <LinkedinIcon url="https://www.linkedin.com/in/chia-ho-wu-84bab726a" />
-            <EmailIcon email="charlie275691502@gmail.com" />
+          <li className="nav-item icon-container active">
+            <div>
+              <ContactIcons />
+            </div>
           </li>
         </ul>
       </div>

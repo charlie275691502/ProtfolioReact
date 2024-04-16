@@ -3,8 +3,7 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import SchoolIcon from "../components/SchoolIcon";
-import JobIcon from "../components/JobIcon";
+import { MdSchool, MdWork } from "react-icons/md";
 
 const Experience = () => {
   return (
@@ -18,7 +17,7 @@ const Experience = () => {
               background: "#212529",
               color: "white",
             }}
-            icon={<SchoolIcon />}
+            icon={<MdSchool />}
           >
             <h3 className="vertical-timeline-element-title">
               Master of Artificial Intelligence
@@ -37,7 +36,7 @@ const Experience = () => {
               background: "#212529",
               color: "white",
             }}
-            icon={<JobIcon />}
+            icon={<MdWork />}
           >
             <h3 className="vertical-timeline-element-title">
               Client Software Engineer
@@ -74,7 +73,7 @@ const Experience = () => {
               background: "#212529",
               color: "white",
             }}
-            icon={<JobIcon />}
+            icon={<MdWork />}
           >
             <h3 className="vertical-timeline-element-title">
               Software Quality Assurance Internship
@@ -108,7 +107,7 @@ const Experience = () => {
               background: "#212529",
               color: "white",
             }}
-            icon={<SchoolIcon />}
+            icon={<MdSchool />}
           >
             <h3 className="vertical-timeline-element-title">
               Bachelor of Computer Science

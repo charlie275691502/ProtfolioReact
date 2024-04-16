@@ -1,12 +1,10 @@
-import { Component } from "react";
-import profile from "../images/profile.jpg";
-import slugify from "@sindresorhus/slugify";
-import Home from "../pages/Home";
+import profile from "../images/inferring-column-types-of-the-dataset.png";
+import InferingColumnTypesOfDataset from "../pages/projects/InferingColumnTypesOfDataset";
 
 export const ProjectList = [
   {
-    title: "ABC",
+    title: "Inferring Column Types of Dataset",
     image: profile,
-    component: <Home />,
+    component: <InferingColumnTypesOfDataset />,
   },
 ];

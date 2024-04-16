@@ -5,8 +5,8 @@ import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Experience from "./pages/Experience";
-import NavigateBar from "./pages/NavigateBar";
-import Footer from "./pages/Footer";
+import NavigateBar from "./components/NavigateBar";
+import Footer from "./components/Footer";
 import { ProjectList } from "./datas/ProjectList";
 import slugify from "@sindresorhus/slugify";
 
