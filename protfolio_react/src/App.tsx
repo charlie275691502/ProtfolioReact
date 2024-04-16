@@ -9,6 +9,7 @@ import NavigateBar from "./components/NavigateBar";
 import Footer from "./components/Footer";
 import { ProjectList } from "./datas/ProjectList";
 import slugify from "@sindresorhus/slugify";
+import BaseProjectPage from "./pages/projects/BaseProjectPage";
 
 function App() {
   return (
@@ -22,7 +23,16 @@ function App() {
           return (
             <Route
               path={"/projects/" + slugify(project.title)}
-              element={project.component}
+              element={
+                <BaseProjectPage
+                  title={project.title}
+                  image={project.image}
+                  skillIcons={project.skillIcons}
+                  githubUrl={project.githubUrl}
+                  demoUrl={project.demoUrl}
+                  content={project.content}
+                />
+              }
             ></Route>
           );
         })}

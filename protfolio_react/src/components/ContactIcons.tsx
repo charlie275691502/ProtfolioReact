@@ -5,12 +5,20 @@ const ContactIcons = () => {
   return (
     <div>
       <button type="button" className="btn">
-        <a href="https://github.com/charlie275691502">
+        <a
+          href="https://github.com/charlie275691502"
+          rel="noopener"
+          target="_blank"
+        >
           <FaGithub className="icon" fill="white" />
         </a>
       </button>
       <button type="button" className="btn">
-        <a href="https://www.linkedin.com/in/chia-ho-wu-84bab726a">
+        <a
+          href="https://www.linkedin.com/in/chia-ho-wu-84bab726a"
+          rel="noopener"
+          target="_blank"
+        >
           <FaLinkedin className="icon" fill="white" />
         </a>
       </button>

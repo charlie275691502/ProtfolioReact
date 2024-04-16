@@ -4,9 +4,10 @@ interface Props {
   id: string;
   title: string;
   image: string;
+  skillIcons: JSX.Element;
 }
 
-const ProjectCard = ({ id, title, image }: Props) => {
+const ProjectCard = ({ id, title, image, skillIcons }: Props) => {
   const navigate = useNavigate();
   return (
     <div
@@ -19,6 +20,7 @@ const ProjectCard = ({ id, title, image }: Props) => {
       <div className="card-body">
         <h3 className="card-text">{title}</h3>
       </div>
+      <div className="technology-icons">{skillIcons}</div>
     </div>
   );
 };

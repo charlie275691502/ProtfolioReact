@@ -15,6 +15,7 @@ const Projects = () => {
                   id={slugify(project.title)}
                   title={project.title}
                   image={project.image}
+                  skillIcons={project.skillIcons}
                 />
               </div>
             );
