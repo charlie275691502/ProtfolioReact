@@ -28,12 +28,12 @@ const NavigateBar = () => {
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/ProtfolioReact/#/projects">
+            <a className="nav-link" href="/ProtfolioReact/#/projects/">
               Projects
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/ProtfolioReact/#/experience">
+            <a className="nav-link" href="/ProtfolioReact/#/experience/">
               Experience
             </a>
           </li>

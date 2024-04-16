@@ -1,4 +1,4 @@
-import logo from "../images/profile.jpg";
+import profile from "../images/profile.jpg";
 
 const Home = () => {
   return (
@@ -11,7 +11,7 @@ const Home = () => {
           </p>
         </div>
         <div className="right-content">
-          <img src={logo} alt="Charlie Wu" />
+          <img src={profile} alt="Charlie Wu" />
         </div>
       </div>
       <div className="skills-section bg-white">

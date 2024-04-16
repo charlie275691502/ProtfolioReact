@@ -72,3 +72,11 @@ img {
 .skills-category ul li {
   margin-bottom: 5px;
 }
+
+.clickable-component {
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.col {
+  margin: 50px; /* Adjust the margin value as needed */
+}
