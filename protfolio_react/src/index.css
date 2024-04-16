@@ -11,3 +11,36 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-container {
+  justify-content: center;
+}
+
+.homepage-container {
+  display: flex;
+  justify-content: space-between; /* Align items with space between them */
+  align-items: center; /* Align items vertically in the center */
+  padding: 20px; /* Add padding around the content */
+}
+
+.left-content {
+  flex: 1; /* Take up remaining space */
+  padding-right: 20px; /* Add padding to the right */
+}
+
+.right-content {
+  flex: 1; /* Take up remaining space */
+  padding-left: 20px; /* Add padding to the left */
+}
+
+img {
+  max-width: 100%; /* Ensure the image doesn't exceed its container */
+  height: auto; /* Maintain aspect ratio */
+}
