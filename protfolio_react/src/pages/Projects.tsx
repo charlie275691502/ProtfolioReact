@@ -1,5 +1,5 @@
 import ProjectCard from "../components/ProjectCard";
-import { ProjectList } from "../datas/ProjectList";
+import { ProjectDatas } from "../datas/ProjectList";
 import slugify from "@sindresorhus/slugify";
 
 const Projects = () => {
@@ -8,7 +8,7 @@ const Projects = () => {
       <h1 className="skills-category"> My personal projects</h1>
       <div className="container text-center">
         <div className="row">
-          {ProjectList.map((project) => {
+          {ProjectDatas.map((project) => {
             return (
               <div className="col" key={project.title}>
                 <ProjectCard

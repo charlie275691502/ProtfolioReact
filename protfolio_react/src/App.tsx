@@ -5,7 +5,7 @@ import Projects from "./pages/Projects";
 import Experience from "./pages/Experience";
 import NavigateBar from "./components/NavigateBar";
 import Footer from "./components/Footer";
-import { ProjectList } from "./datas/ProjectList";
+import { ProjectDatas } from "./datas/ProjectList";
 import slugify from "@sindresorhus/slugify";
 import BaseProjectPage from "./pages/projects/BaseProjectPage";
 
@@ -17,7 +17,7 @@ function App() {
         <Route path="/" element={<Home />}></Route>
         <Route path="/projects" element={<Projects />}></Route>
         <Route path="/experience" element={<Experience />}></Route>
-        {ProjectList.map((project) => {
+        {ProjectDatas.map((project) => {
           return (
             <Route
               path={"/projects/" + slugify(project.title)}

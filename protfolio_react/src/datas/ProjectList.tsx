@@ -1,15 +1,24 @@
-import { FaGithub } from "react-icons/fa";
 import profile from "../images/inferring-column-types-of-the-dataset.png";
 import InferingColumnTypesOfDataset from "../pages/projects/InferingColumnTypesOfDataset copy";
+import {
+  SiDjango,
+  SiGit,
+  SiJavascript,
+  SiPython,
+  SiReact,
+} from "react-icons/si";
 
-export const ProjectList = [
+export const ProjectDatas = [
   {
     title: "Inferring Column Types of Dataset",
     image: profile,
     skillIcons: (
       <>
-        <FaGithub className="icon" />
-        <FaGithub className="icon" />
+        <SiGit className="icon" />
+        <SiDjango className="icon" />
+        <SiReact className="icon" />
+        <SiPython className="icon" />
+        <SiJavascript className="icon" />
       </>
     ),
     githubUrl: "https://github.com/charlie275691502/InferringDatasetWebsite",
