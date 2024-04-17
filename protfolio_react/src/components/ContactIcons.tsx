@@ -3,7 +3,7 @@ import { MdOutlineEmail } from "react-icons/md";
 
 const ContactIcons = () => {
   return (
-    <div>
+    <div className="icon-container">
       <button type="button" className="btn">
         <a
           href="https://github.com/charlie275691502"

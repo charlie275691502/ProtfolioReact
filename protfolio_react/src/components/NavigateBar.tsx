@@ -33,16 +33,9 @@ const NavigateBar = ({ showAnchorLinks }: Props) => {
           </li>
           {showAnchorLinks && <AnchorLinks />}
         </ul>
-      </div>
-
-      <div className="collapse navbar-collapse" id="navbarToggler">
-        <ul className="navbar-nav ms-auto mt-2 mt-lg-0">
-          <li className="nav-item icon-container active">
-            <div>
-              <ContactIcons />
-            </div>
-          </li>
-        </ul>
+        <div className="ms-auto">
+          <ContactIcons />
+        </div>
       </div>
     </nav>
   );
