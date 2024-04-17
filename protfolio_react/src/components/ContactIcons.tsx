@@ -7,7 +7,7 @@ const ContactIcons = () => {
       <button type="button" className="btn">
         <a
           href="https://github.com/charlie275691502"
-          rel="noopener"
+          rel="noreferrer"
           target="_blank"
         >
           <FaGithub className="icon" fill="white" />
@@ -16,7 +16,7 @@ const ContactIcons = () => {
       <button type="button" className="btn">
         <a
           href="https://www.linkedin.com/in/chia-ho-wu-84bab726a"
-          rel="noopener"
+          rel="noreferrer"
           target="_blank"
         >
           <FaLinkedin className="icon" fill="white" />

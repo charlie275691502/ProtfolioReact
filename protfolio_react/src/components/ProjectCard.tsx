@@ -15,7 +15,7 @@ const ProjectCard = ({ id, title, image, skillIcons }: Props) => {
       style={{ width: "18rem" }}
       onClick={() => navigate(id + "/")}
     >
-      <img src={image} className="card-img-top" alt="image"></img>
+      <img src={image} className="card-img-top" alt={"project-" + id}></img>
 
       <div className="card-body">
         <h3 className="card-text">{title}</h3>
