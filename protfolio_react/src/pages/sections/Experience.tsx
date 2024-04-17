@@ -8,7 +8,7 @@ import { MdSchool, MdWork } from "react-icons/md";
 const Experience = () => {
   return (
     <>
-      <div style={{ background: "#f0f0f0" }}>
+      <div id="experience" style={{ background: "#f0f0f0" }}>
         <VerticalTimeline lineColor="#3e497a">
           <VerticalTimelineElement
             className="vertical-timeline-element--education"

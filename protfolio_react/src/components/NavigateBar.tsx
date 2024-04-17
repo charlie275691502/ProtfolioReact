@@ -1,6 +1,11 @@
+import AnchorLinks from "./AnchorLinks";
 import ContactIcons from "./ContactIcons";
 
-const NavigateBar = () => {
+interface Props {
+  showAnchorLinks: boolean;
+}
+
+const NavigateBar = ({ showAnchorLinks }: Props) => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <button
@@ -18,23 +23,15 @@ const NavigateBar = () => {
       <div className="collapse navbar-collapse" id="navbarToggler">
         <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
           <li className="nav-item active">
-            <h3 style={{ color: "white" }}>Charlie Wu</h3>
-          </li>
-          <li className="nav-item active">
-            <a className="nav-link" href="/ProtfolioReact/#/">
-              Home
+            <a
+              style={{ color: "white" }}
+              className="nav-link"
+              href="/ProtfolioReact/#/"
+            >
+              Charlie Wu
             </a>
           </li>
-          <li className="nav-item">
-            <a className="nav-link" href="/ProtfolioReact/#/projects/">
-              Projects
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="/ProtfolioReact/#/experience/">
-              Experience
-            </a>
-          </li>
+          {showAnchorLinks && <AnchorLinks />}
         </ul>
       </div>
 

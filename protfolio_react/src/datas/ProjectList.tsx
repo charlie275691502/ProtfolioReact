@@ -1,5 +1,5 @@
 import profile from "../images/inferring-column-types-of-the-dataset.png";
-import InferingColumnTypesOfDataset from "../pages/projects/InferingColumnTypesOfDataset copy";
+import InferingColumnTypesOfDataset from "../pages/projects/InferingColumnTypesOfDataset";
 import {
   SiDjango,
   SiGit,

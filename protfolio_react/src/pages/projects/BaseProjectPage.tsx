@@ -1,4 +1,5 @@
 import Button from "../../components/Button";
+import NavigateBar from "../../components/NavigateBar";
 
 interface Props {
   title: string;
@@ -18,26 +19,29 @@ const BaseProjectPage = ({
   content,
 }: Props) => {
   return (
-    <div>
-      <div className="project-container">
-        <img src={image} alt={image} className="project-image" />
-        <h1 className="project-title">{title}</h1>
-        <div className="technology-icons">{skillIcons}</div>
-        {githubUrl && (
-          <Button
-            text="Github Repository"
-            onClickButton={() => window.open(githubUrl, "_blank", "noopener")}
-          />
-        )}
-        {demoUrl && (
-          <Button
-            text="Try Yourself"
-            onClickButton={() => window.open(demoUrl, "_blank", "noopener")}
-          />
-        )}
-        {content}
+    <>
+      <NavigateBar showAnchorLinks={false} />
+      <div>
+        <div className="project-container">
+          <img src={image} alt={image} className="project-image" />
+          <h1 className="project-title">{title}</h1>
+          <div className="technology-icons">{skillIcons}</div>
+          {githubUrl && (
+            <Button
+              text="Github Repository"
+              onClickButton={() => window.open(githubUrl, "_blank", "noopener")}
+            />
+          )}
+          {demoUrl && (
+            <Button
+              text="Try Yourself"
+              onClickButton={() => window.open(demoUrl, "_blank", "noopener")}
+            />
+          )}
+          {content}
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 

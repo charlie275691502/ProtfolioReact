@@ -1,22 +1,18 @@
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
-import Projects from "./pages/Projects";
-import Experience from "./pages/Experience";
-import NavigateBar from "./components/NavigateBar";
 import Footer from "./components/Footer";
 import { ProjectDatas } from "./datas/ProjectList";
 import slugify from "@sindresorhus/slugify";
 import BaseProjectPage from "./pages/projects/BaseProjectPage";
+import Home from "./pages/Home";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <>
-      <NavigateBar />
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />}></Route>
-        <Route path="/projects" element={<Projects />}></Route>
-        <Route path="/experience" element={<Experience />}></Route>
         {ProjectDatas.map((project) => {
           return (
             <Route

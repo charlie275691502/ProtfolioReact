@@ -1,21 +1,21 @@
 import { useNavigate } from "react-router-dom";
 
 interface Props {
-  id: string;
+  page_path: string;
   title: string;
   image: string;
   skillIcons: JSX.Element;
 }
 
-const ProjectCard = ({ id, title, image, skillIcons }: Props) => {
+const ProjectCard = ({ page_path, title, image, skillIcons }: Props) => {
   const navigate = useNavigate();
   return (
     <div
       className="card clickable-component"
       style={{ width: "18rem" }}
-      onClick={() => navigate(id + "/")}
+      onClick={() => navigate(page_path)}
     >
-      <img src={image} className="card-img-top" alt={"project-" + id}></img>
+      <img src={image} className="card-img-top" alt="project_image"></img>
 
       <div className="card-body">
         <h3 className="card-text">{title}</h3>
