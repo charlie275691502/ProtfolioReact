@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/ProtfolioReact/static/css/main.4f4e9b07.css",
-    "main.js": "/ProtfolioReact/static/js/main.ba830f91.js",
+    "main.css": "/ProtfolioReact/static/css/main.dcbae8b8.css",
+    "main.js": "/ProtfolioReact/static/js/main.c43c4275.js",
     "static/js/453.872b016c.chunk.js": "/ProtfolioReact/static/js/453.872b016c.chunk.js",
     "static/media/inferring-column-types-of-the-dataset.png": "/ProtfolioReact/static/media/inferring-column-types-of-the-dataset.f5b8a04f45c7648831c3.png",
     "static/media/profile.jpg": "/ProtfolioReact/static/media/profile.0fa4d7380f5208af61b9.jpg",
     "index.html": "/ProtfolioReact/index.html",
-    "main.4f4e9b07.css.map": "/ProtfolioReact/static/css/main.4f4e9b07.css.map",
-    "main.ba830f91.js.map": "/ProtfolioReact/static/js/main.ba830f91.js.map",
+    "main.dcbae8b8.css.map": "/ProtfolioReact/static/css/main.dcbae8b8.css.map",
+    "main.c43c4275.js.map": "/ProtfolioReact/static/js/main.c43c4275.js.map",
     "453.872b016c.chunk.js.map": "/ProtfolioReact/static/js/453.872b016c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4f4e9b07.css",
-    "static/js/main.ba830f91.js"
+    "static/css/main.dcbae8b8.css",
+    "static/js/main.c43c4275.js"
   ]
 }
