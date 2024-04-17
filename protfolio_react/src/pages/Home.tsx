@@ -9,8 +9,8 @@ const Home = () => {
     <>
       <NavigateBar showAnchorLinks={true} />
       <Intro />
-      <Skills />
       <Experience />
+      <Skills />
       <Projects />
     </>
   );

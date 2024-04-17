@@ -1,0 +1,28 @@
+.projects-title {
+  margin-bottom: 20px;
+  text-align: center; /* Align list elements to the left */
+}
+
+.projects-col {
+  margin: 50px; /* Adjust the margin value as needed */
+}
+
+.project-container {
+  text-align: center; /* Center align content */
+  margin-bottom: 20px; /* Add margin between project containers */
+}
+
+.project-image {
+  width: 100%; /* Ensure the project image spans the full width of its container */
+  max-width: 600px; /* Adjust maximum width of the image as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 10px; /* Add space between the image and title */
+}
+
+.project-title {
+  margin-bottom: 10px; /* Add space between the title and technology icons */
+}
+
+.project-description {
+  margin-bottom: 20px; /* Add margin at the bottom of the description */
+}

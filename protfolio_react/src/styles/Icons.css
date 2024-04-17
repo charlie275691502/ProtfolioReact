@@ -1,11 +1,24 @@
-.icon-container {
+.contact-icon-container {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+}
   
-  .icon {
-    width: 30px; /* Adjust the size of the icons */
-    height: 30px; /* Adjust the size of the icons */
-    margin: 0 10px; /* Increase the margin between icons */
-  }
+.contact-icon {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
+
+.technology-icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+  
+.technology-icon {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}

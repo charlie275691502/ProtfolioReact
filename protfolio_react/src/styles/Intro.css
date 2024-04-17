@@ -1,0 +1,16 @@
+.intro-container {
+  display: flex;
+  justify-content: space-between; /* Align items with space between them */
+  align-items: center; /* Align items vertically in the center */
+  padding: 20px; /* Add padding around the content */
+}
+
+.intro-left-content {
+  flex: 1; /* Take up remaining space */
+  padding-right: 20px; /* Add padding to the right */
+}
+
+.intro-right-content {
+  flex: 1; /* Take up remaining space */
+  padding-left: 20px; /* Add padding to the left */
+}

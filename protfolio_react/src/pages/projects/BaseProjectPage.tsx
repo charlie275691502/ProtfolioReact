@@ -25,7 +25,7 @@ const BaseProjectPage = ({
         <div className="project-container">
           <img src={image} alt={image} className="project-image" />
           <h1 className="project-title">{title}</h1>
-          <div className="technology-icons">{skillIcons}</div>
+          <div className="technology-icon-container">{skillIcons}</div>
           {githubUrl && (
             <Button
               text="Github Repository"

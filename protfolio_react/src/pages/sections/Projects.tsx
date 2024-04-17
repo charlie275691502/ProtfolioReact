@@ -5,14 +5,14 @@ import slugify from "@sindresorhus/slugify";
 const Projects = () => {
   return (
     <>
-      <h1 id="projects" className="skills-category">
+      <h1 id="projects" className="projects-title">
         My personal projects
       </h1>
       <div className="container text-center">
         <div className="row">
           {ProjectDatas.map((project) => {
             return (
-              <div className="col" key={project.title}>
+              <div className="projects-col" key={project.title}>
                 <ProjectCard
                   page_path={"projects/" + slugify(project.title) + "/"}
                   title={project.title}

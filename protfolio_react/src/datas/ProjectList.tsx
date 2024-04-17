@@ -14,11 +14,11 @@ export const ProjectDatas = [
     image: profile,
     skillIcons: (
       <>
-        <SiGit className="icon" />
-        <SiDjango className="icon" />
-        <SiReact className="icon" />
-        <SiPython className="icon" />
-        <SiJavascript className="icon" />
+        <SiGit className="technology-icon" />
+        <SiDjango className="technology-icon" />
+        <SiReact className="technology-icon" />
+        <SiPython className="technology-icon" />
+        <SiJavascript className="technology-icon" />
       </>
     ),
     githubUrl: "https://github.com/charlie275691502/InferringDatasetWebsite",

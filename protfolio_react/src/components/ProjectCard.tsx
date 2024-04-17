@@ -20,7 +20,7 @@ const ProjectCard = ({ page_path, title, image, skillIcons }: Props) => {
       <div className="card-body">
         <h3 className="card-text">{title}</h3>
       </div>
-      <div className="technology-icons">{skillIcons}</div>
+      <div className="technology-icon-container">{skillIcons}</div>
     </div>
   );
 };

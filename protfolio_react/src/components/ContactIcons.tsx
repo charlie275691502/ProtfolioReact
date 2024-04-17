@@ -3,14 +3,14 @@ import { MdOutlineEmail } from "react-icons/md";
 
 const ContactIcons = () => {
   return (
-    <div className="icon-container">
+    <div className="contact-icon-container">
       <button type="button" className="btn">
         <a
           href="https://github.com/charlie275691502"
           rel="noreferrer"
           target="_blank"
         >
-          <FaGithub className="icon" fill="white" />
+          <FaGithub className="contact-icon" fill="white" />
         </a>
       </button>
       <button type="button" className="btn">
@@ -19,7 +19,7 @@ const ContactIcons = () => {
           rel="noreferrer"
           target="_blank"
         >
-          <FaLinkedin className="icon" fill="white" />
+          <FaLinkedin className="contact-icon" fill="white" />
         </a>
       </button>
       <button
@@ -30,7 +30,7 @@ const ContactIcons = () => {
           e.preventDefault();
         }}
       >
-        <MdOutlineEmail className="icon" fill="white" />
+        <MdOutlineEmail className="contact-icon" fill="white" />
       </button>
     </div>
   );
