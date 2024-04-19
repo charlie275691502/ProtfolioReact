@@ -1,19 +1,3 @@
-import { FaJava } from "react-icons/fa";
-import {
-  SiCplusplus,
-  SiCsharp,
-  SiDjango,
-  SiDocker,
-  SiGit,
-  SiGooglesheets,
-  SiHtml5,
-  SiJavascript,
-  SiMicrosoftexcel,
-  SiPostgresql,
-  SiPython,
-  SiReact,
-  SiUnity,
-} from "react-icons/si";
 import Icon, { IconType } from "../../components/Icon";
 
 const Skills = () => {
