@@ -1,15 +1,8 @@
+import Icon, { IconType } from "../components/Icon";
 import inferring_column_types_of_the_dataset_image from "../images/inferring_column_types_of_dataset.png";
 import web_crawler_for_commodity_exchange from "../images/web_crawler_for_commodity_exchange.png";
 import WebCrawlerForCommodityExchange from "../pages/projects/WebCrawlerForCommodityExchange";
 import InferingColumnTypesOfDataset from "../pages/projects/WebCrawlerForCommodityExchange";
-import {
-  SiDjango,
-  SiGit,
-  SiJavascript,
-  SiPython,
-  SiReact,
-  SiSelenium,
-} from "react-icons/si";
 
 export const ProjectDatas = [
   {
@@ -17,11 +10,11 @@ export const ProjectDatas = [
     image: inferring_column_types_of_the_dataset_image,
     skillIcons: (
       <>
-        <SiGit className="technology-icon" />
-        <SiDjango className="technology-icon" />
-        <SiReact className="technology-icon" />
-        <SiPython className="technology-icon" />
-        <SiJavascript className="technology-icon" />
+        <Icon type={IconType.Git} />
+        <Icon type={IconType.Django} />
+        <Icon type={IconType.React} />
+        <Icon type={IconType.Python} />
+        <Icon type={IconType.Javascript} />
       </>
     ),
     githubUrl: "https://github.com/charlie275691502/InferringDatasetWebsite",
@@ -33,9 +26,23 @@ export const ProjectDatas = [
     image: web_crawler_for_commodity_exchange,
     skillIcons: (
       <>
-        <SiGit className="technology-icon" />
-        <SiPython className="technology-icon" />
-        <SiSelenium className="technology-icon" />
+        <Icon type={IconType.Git} />
+        <Icon type={IconType.Python} />
+        <Icon type={IconType.Selenium} />
+      </>
+    ),
+    githubUrl: "https://github.com/charlie275691502/PRUN_CommodityPriceCrawler",
+    demoUrl: undefined,
+    content: <WebCrawlerForCommodityExchange />,
+  },
+  {
+    title: "Discord Channel Junitor",
+    image: web_crawler_for_commodity_exchange,
+    skillIcons: (
+      <>
+        <Icon type={IconType.Git} />
+        <Icon type={IconType.Python} />
+        <Icon type={IconType.Discord} />
       </>
     ),
     githubUrl: "https://github.com/charlie275691502/PRUN_CommodityPriceCrawler",

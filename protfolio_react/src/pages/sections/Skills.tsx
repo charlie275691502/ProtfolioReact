@@ -14,6 +14,7 @@ import {
   SiReact,
   SiUnity,
 } from "react-icons/si";
+import Icon, { IconType } from "../../components/Icon";
 
 const Skills = () => {
   return (
@@ -22,25 +23,25 @@ const Skills = () => {
         <div className="skills-category">
           <h2>Languages</h2>
           <div className="technology-icon-container">
-            <SiCsharp className="technology-icon" />
-            <SiCplusplus className="technology-icon" />
-            <SiPython className="technology-icon" />
-            <SiJavascript className="technology-icon" />
-            <FaJava className="technology-icon" />
-            <SiHtml5 className="technology-icon" />
+            <Icon type={IconType.Csharp} />
+            <Icon type={IconType.Cplusplus} />
+            <Icon type={IconType.Python} />
+            <Icon type={IconType.Javascript} />
+            <Icon type={IconType.Java} />
+            <Icon type={IconType.Html5} />
           </div>
         </div>
         <div className="skills-category">
           <h2>Software</h2>
           <div className="technology-icon-container">
-            <SiUnity className="technology-icon" />
-            <SiGit className="technology-icon" />
-            <SiDocker className="technology-icon" />
-            <SiPostgresql className="technology-icon" />
-            <SiDjango className="technology-icon" />
-            <SiReact className="technology-icon" />
-            <SiGooglesheets className="technology-icon" />
-            <SiMicrosoftexcel className="technology-icon" />
+            <Icon type={IconType.Unity} />
+            <Icon type={IconType.Git} />
+            <Icon type={IconType.Docker} />
+            <Icon type={IconType.Postgresql} />
+            <Icon type={IconType.Django} />
+            <Icon type={IconType.React} />
+            <Icon type={IconType.Googlesheets} />
+            <Icon type={IconType.Microsoftexcel} />
           </div>
         </div>
         <div className="skills-category">

@@ -18,7 +18,11 @@
 }
   
 .technology-icon {
-    width: 30px;
-    height: 30px;
-    margin: 0 10px;
+    width: 24px;
+    height: 24px;
+    margin-bottom: 24px;
+}
+  
+.technology-icon-padding {
+    margin: 10px;
 }
