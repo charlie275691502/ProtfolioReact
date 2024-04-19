@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.css": "/ProtfolioReact/static/css/main.dcbae8b8.css",
-    "main.js": "/ProtfolioReact/static/js/main.c43c4275.js",
-    "static/js/453.872b016c.chunk.js": "/ProtfolioReact/static/js/453.872b016c.chunk.js",
-    "static/media/inferring-column-types-of-the-dataset.png": "/ProtfolioReact/static/media/inferring-column-types-of-the-dataset.f5b8a04f45c7648831c3.png",
+    "main.css": "/ProtfolioReact/static/css/main.d4d73345.css",
+    "main.js": "/ProtfolioReact/static/js/main.7f1db6a7.js",
+    "static/js/453.3f0ac116.chunk.js": "/ProtfolioReact/static/js/453.3f0ac116.chunk.js",
+    "static/media/soul_star.png": "/ProtfolioReact/static/media/soul_star.38f75856b29772c887f6.png",
+    "static/media/generation_of_authority.png": "/ProtfolioReact/static/media/generation_of_authority.f6ef121639f8a33d6ba6.png",
+    "static/media/inferring_column_types_of_dataset.png": "/ProtfolioReact/static/media/inferring_column_types_of_dataset.f5b8a04f45c7648831c3.png",
     "static/media/profile.jpg": "/ProtfolioReact/static/media/profile.0fa4d7380f5208af61b9.jpg",
+    "static/media/web_crawler_for_commodity_exchange.png": "/ProtfolioReact/static/media/web_crawler_for_commodity_exchange.819aeeb16f07d52c2211.png",
     "index.html": "/ProtfolioReact/index.html",
-    "main.dcbae8b8.css.map": "/ProtfolioReact/static/css/main.dcbae8b8.css.map",
-    "main.c43c4275.js.map": "/ProtfolioReact/static/js/main.c43c4275.js.map",
-    "453.872b016c.chunk.js.map": "/ProtfolioReact/static/js/453.872b016c.chunk.js.map"
+    "main.d4d73345.css.map": "/ProtfolioReact/static/css/main.d4d73345.css.map",
+    "main.7f1db6a7.js.map": "/ProtfolioReact/static/js/main.7f1db6a7.js.map",
+    "453.3f0ac116.chunk.js.map": "/ProtfolioReact/static/js/453.3f0ac116.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dcbae8b8.css",
-    "static/js/main.c43c4275.js"
+    "static/css/main.d4d73345.css",
+    "static/js/main.7f1db6a7.js"
   ]
 }
