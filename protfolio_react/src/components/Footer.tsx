@@ -1,4 +1,5 @@
 import ContactIcons from "./ContactIcons";
+import "../styles/Footer.css";
 
 const Footer = () => {
   return (

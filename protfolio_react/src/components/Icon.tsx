@@ -18,6 +18,7 @@ import {
 import { GrStatusUnknown } from "react-icons/gr";
 import { FaJava } from "react-icons/fa";
 import { Tooltip, Icon as IconBase } from "@mui/material";
+import "../styles/Icon.css";
 
 export enum IconType {
   Unknown,
@@ -128,18 +129,31 @@ const IconDatas = [
 ];
 
 const GetIconData = (type: IconType) => {
-  return IconDatas.find((iconData) => iconData.type == type) || IconDatas[0];
+  return IconDatas.find((iconData) => iconData.type === type) || IconDatas[0];
 };
 
 interface Props {
   type: IconType;
+  placement?:
+    | "bottom"
+    | "bottom-end"
+    | "bottom-start"
+    | "left-end"
+    | "left-start"
+    | "left"
+    | "right-end"
+    | "right-start"
+    | "right"
+    | "top-end"
+    | "top-start"
+    | "top";
   hoverable?: boolean;
 }
 
-const Icon = ({ type, hoverable = true }: Props) => {
+const Icon = ({ type, placement = "bottom", hoverable = true }: Props) => {
   var iconData = GetIconData(type);
   return hoverable ? (
-    <Tooltip title={iconData.title}>
+    <Tooltip title={iconData.title} placement={placement}>
       <IconBase className="technology-icon-padding">
         {iconData.component}
       </IconBase>

@@ -1,6 +1,7 @@
 import ProjectCard from "../../components/ProjectCard";
 import { ProjectDatas } from "../../datas/ProjectList";
 import slugify from "@sindresorhus/slugify";
+import "../../styles/Projects.css";
 
 const Projects = () => {
   return (

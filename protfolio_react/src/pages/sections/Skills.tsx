@@ -1,39 +1,24 @@
-import Icon, { IconType } from "../../components/Icon";
+import SkillProficiency, {
+  SkillProficiencyLanguageDatas,
+  SkillProficiencySoftwareDatas,
+} from "../../components/SkillProficiency";
+import "../../styles/Skills.css";
 
 const Skills = () => {
   return (
     <>
       <div id="skills" className="skills-section bg-white">
-        <div className="skills-category">
-          <h2>Languages</h2>
-          <div className="technology-icon-container">
-            <Icon type={IconType.Csharp} />
-            <Icon type={IconType.Cplusplus} />
-            <Icon type={IconType.Python} />
-            <Icon type={IconType.Javascript} />
-            <Icon type={IconType.Java} />
-            <Icon type={IconType.Html5} />
-          </div>
+        <div className="skills-container">
+          <h3 className="skills-container-title">Languages</h3>
+          {SkillProficiencyLanguageDatas.map((data) => (
+            <SkillProficiency iconType={data.iconType} score={data.score} />
+          ))}
         </div>
-        <div className="skills-category">
-          <h2>Software</h2>
-          <div className="technology-icon-container">
-            <Icon type={IconType.Unity} />
-            <Icon type={IconType.Git} />
-            <Icon type={IconType.Docker} />
-            <Icon type={IconType.Postgresql} />
-            <Icon type={IconType.Django} />
-            <Icon type={IconType.React} />
-            <Icon type={IconType.Googlesheets} />
-            <Icon type={IconType.Microsoftexcel} />
-          </div>
-        </div>
-        <div className="skills-category">
-          <h2>Principles</h2>
-          <div>
-            <li>Agile Software Development</li>
-            <li>Design Patterns</li>
-          </div>
+        <div className="skills-container">
+          <h3 className="skills-container-title">Software</h3>
+          {SkillProficiencySoftwareDatas.map((data) => (
+            <SkillProficiency iconType={data.iconType} score={data.score} />
+          ))}
         </div>
       </div>
     </>

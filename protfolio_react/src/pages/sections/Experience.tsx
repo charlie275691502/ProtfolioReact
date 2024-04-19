@@ -37,7 +37,7 @@ const ExperienceTypeProperties = [
 const GetExperienceTypeProperty = (type: ExperienceType) => {
   return (
     ExperienceTypeProperties.find(
-      (experienceTypeProperty) => experienceTypeProperty.type == type
+      (experienceTypeProperty) => experienceTypeProperty.type === type
     ) || ExperienceTypeProperties[0]
   );
 };

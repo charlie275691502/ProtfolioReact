@@ -1,5 +1,6 @@
 import Button from "../../components/Button";
 import NavigateBar from "../../components/NavigateBar";
+import "../../styles/Projects.css";
 
 interface Props {
   title: string;

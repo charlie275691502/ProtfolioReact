@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import "../styles/Common.css";
 
 interface Props {
   page_path: string;

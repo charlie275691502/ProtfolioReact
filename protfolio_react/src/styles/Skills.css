@@ -1,13 +1,33 @@
+.skills-container-title {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
 .skills-section {
   background-color: white;
   padding: 20px;
-  margin-top: 20px;
   display: flex;
-  flex-direction: column;
-  align-items: center; /* Center horizontally */
+  justify-content: center;
 }
 
-.skills-category {
-  margin-bottom: 20px;
-  text-align: center; /* Align list elements to the left */
+.skills-container {
+  width: 40%;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+}
+
+.skills-container-skill-container {
+  display: flex;
+  align-items: center;
+}
+
+.skills-container-skill-bar {
+  flex: 1;
+}
+
+.skills-container-skill-level {
+  height: 20px;
+  background-color: dodgerblue;
 }
