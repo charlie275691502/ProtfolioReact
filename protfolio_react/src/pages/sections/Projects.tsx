@@ -9,10 +9,10 @@ const Projects = () => {
         My personal projects
       </h1>
       <div className="container text-center">
-        <div className="row">
+        <div className="row row-cols-3">
           {ProjectDatas.map((project) => {
             return (
-              <div className="projects-col" key={project.title}>
+              <div className="col projects-col" key={project.title}>
                 <ProjectCard
                   page_path={"projects/" + slugify(project.title) + "/"}
                   title={project.title}
