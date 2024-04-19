@@ -1,5 +1,6 @@
-import AnchorLinks from "./AnchorLinks";
 import ContactIcons from "./ContactIcons";
+import "../styles/NavigateBar.css";
+import AnchorLinks from "./AnchorLinks";
 
 interface Props {
   showAnchorLinks: boolean;
@@ -7,7 +8,7 @@ interface Props {
 
 const NavigateBar = ({ showAnchorLinks }: Props) => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
       <button
         className="navbar-toggler"
         type="button"
@@ -21,13 +22,9 @@ const NavigateBar = ({ showAnchorLinks }: Props) => {
       </button>
 
       <div className="collapse navbar-collapse" id="navbarToggler">
-        <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
+        <ul className="navbar-nav mr-auto mt-2 mt-lg-0 navigate-bar-container">
           <li className="nav-item active">
-            <a
-              style={{ color: "white" }}
-              className="nav-link"
-              href="/ProtfolioReact/#/"
-            >
+            <a className="navigate-bar-title" href="/ProtfolioReact/#">
               Charlie Wu
             </a>
           </li>

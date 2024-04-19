@@ -2,8 +2,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 40px; /* Increased padding for better spacing */
-  flex-direction: row; /* Default: text on the left, image on the right */
+  padding: 40px;
+  flex-direction: row;
 }
 
 .intro-left-content {
@@ -12,7 +12,7 @@
 
 .intro-right-content {
   flex: 1;
-  padding-left: 40px; /* Increased padding for better spacing */
+  padding-left: 40px;
 }
 
 .intro-name {
@@ -37,16 +37,16 @@
 
 @media (max-width: 1000px) {
   .intro-container {
-    flex-direction: column; /* Text on top, image below */
-    align-items: flex-start; /* Align items to the start */
+    flex-direction: column;
+    align-items: flex-start;
   }
 
   .intro-left-content {
-    padding-right: 0; /* No padding on right when in column layout */
-    margin-bottom: 20px; /* Add margin between text and image */
+    padding-right: 0;
+    margin-bottom: 20px;
   }
 
   .intro-right-content {
-    padding-left: 0; /* No padding on left when in column layout */
+    padding-left: 0;
   }
 }

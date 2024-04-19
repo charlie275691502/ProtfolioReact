@@ -1,27 +1,31 @@
 import AnchorLink from "react-anchor-link-smooth-scroll";
+import "../styles/NavigateBar.css";
 
 const AnchorLinks = () => {
   return (
     <>
       <li className="nav-item">
-        <AnchorLink href="#skills">
-          <button type="button" className="nav-link btn">
-            Skills
-          </button>
+        <AnchorLink
+          href="#skills"
+          className="nav-link navigate-bar-anchor-button"
+        >
+          Skills
         </AnchorLink>
       </li>
       <li className="nav-item">
-        <AnchorLink href="#experience">
-          <button type="button" className="nav-link btn">
-            Experience
-          </button>
+        <AnchorLink
+          href="#experience"
+          className="nav-link navigate-bar-anchor-button"
+        >
+          Experience
         </AnchorLink>
       </li>
       <li className="nav-item">
-        <AnchorLink href="#projects">
-          <button type="button" className="nav-link btn">
-            Projects
-          </button>
+        <AnchorLink
+          href="#projects"
+          className="nav-link navigate-bar-anchor-button"
+        >
+          Projects
         </AnchorLink>
       </li>
     </>
