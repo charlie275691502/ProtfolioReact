@@ -128,12 +128,7 @@ const IconDatas = [
 ];
 
 const GetIconData = (type: IconType) => {
-  return (IconDatas.find((iconData) => iconData.type == type) ||
-    IconDatas[0]) as {
-    type: IconType;
-    title: string;
-    component: JSX.Element;
-  };
+  return IconDatas.find((iconData) => iconData.type == type) || IconDatas[0];
 };
 
 interface Props {

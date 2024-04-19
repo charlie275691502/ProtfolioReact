@@ -4,7 +4,6 @@ import "./index.css";
 import "./styles/Common.css";
 import "./styles/Icons.css";
 import "./styles/Footer.css";
-import "./styles/Intro.css";
 import "./styles/Skills.css";
 import "./styles/Projects.css";
 import App from "./App";

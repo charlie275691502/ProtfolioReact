@@ -1,16 +1,52 @@
 .intro-container {
   display: flex;
-  justify-content: space-between; /* Align items with space between them */
-  align-items: center; /* Align items vertically in the center */
-  padding: 20px; /* Add padding around the content */
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px; /* Increased padding for better spacing */
+  flex-direction: row; /* Default: text on the left, image on the right */
 }
 
 .intro-left-content {
-  flex: 1; /* Take up remaining space */
-  padding-right: 20px; /* Add padding to the right */
+  flex: 1;
 }
 
 .intro-right-content {
-  flex: 1; /* Take up remaining space */
-  padding-left: 20px; /* Add padding to the left */
+  flex: 1;
+  padding-left: 40px; /* Increased padding for better spacing */
+}
+
+.intro-name {
+  color: #FFD700;
+  font-size: 4rem;
+}
+
+.intro-title {
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.intro-description {
+  color: white;
+  font-size: 1rem;
+}
+
+.intro-profile-img {
+  width: 100%;
+}
+
+@media (max-width: 1000px) {
+  .intro-container {
+    flex-direction: column; /* Text on top, image below */
+    align-items: flex-start; /* Align items to the start */
+  }
+
+  .intro-left-content {
+    padding-right: 0; /* No padding on right when in column layout */
+    margin-bottom: 20px; /* Add margin between text and image */
+  }
+
+  .intro-right-content {
+    padding-left: 0; /* No padding on left when in column layout */
+  }
 }
