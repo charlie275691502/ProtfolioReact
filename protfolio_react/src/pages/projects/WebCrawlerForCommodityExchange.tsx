@@ -1,7 +1,7 @@
 const WebCrawlerForCommodityExchange = () => {
   return (
     <>
-      <div className="page-container">
+      <div className="project-page-container">
         <h1>Introduction</h1>
         <div>
           A simple python project helps you to download all commodity price from

@@ -1,7 +1,7 @@
 const GenerationOfAuthority = () => {
   return (
     <>
-      <div className="page-container">
+      <div className="project-page-container">
         <h1>Introduction</h1>
         <div>
           This project contains both the Client and Server sides. When you start

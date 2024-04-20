@@ -1,7 +1,7 @@
 const DiscordChannelJunitor = () => {
   return (
     <>
-      <div className="page-container">
+      <div className="project-page-container">
         <h1>Introduction</h1>
         <div>
           A discord bot automatically removes banned words and replies warning

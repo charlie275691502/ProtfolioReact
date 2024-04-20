@@ -6,7 +6,7 @@ import soul_star from "../images/soul_star.png";
 import generation_of_authority from "../images/generation_of_authority.png";
 
 import WebCrawlerForCommodityExchange from "../pages/projects/WebCrawlerForCommodityExchange";
-import InferingColumnTypesOfDataset from "../pages/projects/WebCrawlerForCommodityExchange";
+import InferingColumnTypesOfDataset from "../pages/projects/InferingColumnTypesOfDataset";
 import DiscordChannelJunitor from "../pages/projects/DiscordChannelJunitor";
 import SoulStar from "../pages/projects/SoulStar";
 import GenerationOfAuthority from "../pages/projects/GenerationOfAuthority";

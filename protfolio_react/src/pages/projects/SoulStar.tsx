@@ -1,7 +1,7 @@
 const SoulStar = () => {
   return (
     <>
-      <div className="page-container">
+      <div className="project-page-container">
         <h1>Introduction</h1>
         <div>
           Soul Star is a turn-based strategy game. Here's the game screen of it.
