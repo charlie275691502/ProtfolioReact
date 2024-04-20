@@ -6,6 +6,7 @@ import "../../styles/ProjectPage.css";
 interface Props {
   title: string;
   images: string[];
+  darkThemeImageIndicator: boolean;
   skillIcons: JSX.Element;
   githubUrl?: string;
   demoUrl?: string;
@@ -15,6 +16,7 @@ interface Props {
 const BaseProjectPage = ({
   title,
   images,
+  darkThemeImageIndicator,
   skillIcons,
   githubUrl,
   demoUrl,
@@ -26,7 +28,7 @@ const BaseProjectPage = ({
       <div>
         <div className="project-page-container">
           <div className="project-page-head-container">
-            <ImagesDisplayer images={images} />
+            <ImagesDisplayer images={images} isDark={darkThemeImageIndicator} />
             <h1 className="project-title">{title}</h1>
             <div className="technology-icon-container ">{skillIcons}</div>
             {githubUrl && (

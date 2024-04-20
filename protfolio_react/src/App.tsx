@@ -21,6 +21,7 @@ function App() {
                 <BaseProjectPage
                   title={project.title}
                   images={project.images}
+                  darkThemeImageIndicator={project.darkThemeImageIndicator}
                   skillIcons={project.skillIcons}
                   githubUrl={project.githubUrl}
                   demoUrl={project.demoUrl}

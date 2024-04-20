@@ -1,5 +1,6 @@
 import Icon, { IconType } from "../components/Icon";
 import inferring_column_types_of_the_dataset_image_thumbnail from "../assets/inferring_column_types_of_dataset_thumbnail.png";
+import inferring_column_types_of_dataset_summary from "../assets/inferring_column_types_of_dataset_summary.png";
 import web_crawler_for_commodity_exchange_thumbnail from "../assets/web_crawler_for_commodity_exchange_thumbnail.png";
 import discord_channel_junitor_thumbnail from "../assets/discord_channel_junitor_thumbnail.png";
 import soul_star_thumbnail from "../assets/soul_star_thumbnail.png";
@@ -14,7 +15,12 @@ import GenerationOfAuthority from "../pages/projects/GenerationOfAuthority";
 export const ProjectDatas = [
   {
     title: "Inferring Column Types of Dataset",
-    images: [inferring_column_types_of_the_dataset_image_thumbnail],
+    thumbnail: inferring_column_types_of_the_dataset_image_thumbnail,
+    images: [
+      inferring_column_types_of_the_dataset_image_thumbnail,
+      inferring_column_types_of_dataset_summary,
+    ],
+    darkThemeImageIndicator: true,
     skillIcons: (
       <>
         <Icon type={IconType.Git} />
@@ -31,7 +37,9 @@ export const ProjectDatas = [
   },
   {
     title: "Web Crawler for Commodity Exchange",
+    thumbnail: web_crawler_for_commodity_exchange_thumbnail,
     images: [web_crawler_for_commodity_exchange_thumbnail],
+    darkThemeImageIndicator: false,
     skillIcons: (
       <>
         <Icon type={IconType.Git} />
@@ -45,7 +53,9 @@ export const ProjectDatas = [
   },
   {
     title: "Discord Channel Junitor",
+    thumbnail: discord_channel_junitor_thumbnail,
     images: [discord_channel_junitor_thumbnail],
+    darkThemeImageIndicator: false,
     skillIcons: (
       <>
         <Icon type={IconType.Git} />
@@ -59,7 +69,9 @@ export const ProjectDatas = [
   },
   {
     title: "Soul Star",
+    thumbnail: soul_star_thumbnail,
     images: [soul_star_thumbnail],
+    darkThemeImageIndicator: false,
     skillIcons: (
       <>
         <Icon type={IconType.Git} />
@@ -73,7 +85,9 @@ export const ProjectDatas = [
   },
   {
     title: "Generation of Authority",
+    thumbnail: generation_of_authority_thumbnail,
     images: [generation_of_authority_thumbnail],
+    darkThemeImageIndicator: false,
     skillIcons: (
       <>
         <Icon type={IconType.Git} />
