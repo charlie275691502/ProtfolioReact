@@ -49,7 +49,7 @@ export const ProjectDatas = [
       </>
     ),
     githubUrl: "https://github.com/charlie275691502/Soul-Star",
-    demoUrl: undefined,
+    demoUrl: "https://charlie275691502.github.io/Soul-Star/",
     content: <SoulStar />,
   },
   {

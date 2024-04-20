@@ -21,6 +21,15 @@
   height: auto;
 }
 
+.project-page-button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.project-page-button {
+    padding: 20px;
+}
+
 .project-page-section-container, .project-page-section-container--center {
   background-color: #fff;
   margin-top: 20px;

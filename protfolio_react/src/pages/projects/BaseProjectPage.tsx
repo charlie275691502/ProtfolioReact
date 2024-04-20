@@ -30,21 +30,29 @@ const BaseProjectPage = ({
           <div className="project-page-head-container">
             <ImagesDisplayer images={images} isDark={darkThemeImageIndicator} />
             <h1 className="project-title">{title}</h1>
-            <div className="technology-icon-container ">{skillIcons}</div>
-            {githubUrl && (
-              <Button
-                text="Github Repository"
-                onClickButton={() =>
-                  window.open(githubUrl, "_blank", "noopener")
-                }
-              />
-            )}
-            {demoUrl && (
-              <Button
-                text="Try Yourself"
-                onClickButton={() => window.open(demoUrl, "_blank", "noopener")}
-              />
-            )}
+            <div className="technology-icon-container">{skillIcons}</div>
+            <div className="project-page-button-container">
+              {githubUrl && (
+                <div className="project-page-button">
+                  <Button
+                    text="Github Repository"
+                    onClickButton={() =>
+                      window.open(githubUrl, "_blank", "noopener")
+                    }
+                  />
+                </div>
+              )}
+              {demoUrl && (
+                <div className="project-page-button">
+                  <Button
+                    text="Play Online"
+                    onClickButton={() =>
+                      window.open(demoUrl, "_blank", "noopener")
+                    }
+                  />
+                </div>
+              )}
+            </div>
           </div>
           {content}
         </div>
