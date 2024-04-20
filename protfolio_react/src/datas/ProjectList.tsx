@@ -2,6 +2,7 @@ import Icon, { IconType } from "../components/Icon";
 import inferring_column_types_of_the_dataset_image_thumbnail from "../assets/inferring_column_types_of_dataset_thumbnail.png";
 import inferring_column_types_of_dataset_summary from "../assets/inferring_column_types_of_dataset_summary.png";
 import web_crawler_for_commodity_exchange_thumbnail from "../assets/web_crawler_for_commodity_exchange_thumbnail.png";
+import web_crawler_for_commodity_exchange_excel from "../assets/web_crawler_for_commodity_exchange_excel.png";
 import discord_channel_junitor_thumbnail from "../assets/discord_channel_junitor_thumbnail.png";
 import soul_star_thumbnail from "../assets/soul_star_thumbnail.png";
 import generation_of_authority_thumbnail from "../assets/generation_of_authority_thumbnail.png";
@@ -38,7 +39,10 @@ export const ProjectDatas = [
   {
     title: "Web Crawler for Commodity Exchange",
     thumbnail: web_crawler_for_commodity_exchange_thumbnail,
-    images: [web_crawler_for_commodity_exchange_thumbnail],
+    images: [
+      web_crawler_for_commodity_exchange_thumbnail,
+      web_crawler_for_commodity_exchange_excel,
+    ],
     darkThemeImageIndicator: false,
     skillIcons: (
       <>

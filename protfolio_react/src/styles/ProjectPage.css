@@ -10,15 +10,15 @@
 }
 
 .project-page-head-container {
-  text-align: center; /* Center align content */
+  text-align: center;
   background-color: #f0f0f0;
-  padding: 10px; /* Add space between the image and title */
+  padding: 10px;
 }
 
 .project-page-head-image {
-  width: 100%; /* Ensure the project image spans the full width of its container */
-  max-width: 600px; /* Adjust maximum width of the image as needed */
-  height: auto; /* Maintain aspect ratio */
+  width: 100%;
+  max-width: 600px;
+  height: auto;
 }
 
 .project-page-section-container, .project-page-section-container--center {
@@ -30,7 +30,7 @@
 }
 
 .project-page-section-container--center{
-  text-align: center; /* Center align content */
+  text-align: center;
 }
 
 .project-page-video {
