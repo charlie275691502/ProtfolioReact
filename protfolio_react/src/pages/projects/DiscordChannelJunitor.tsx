@@ -1,26 +1,13 @@
 const DiscordChannelJunitor = () => {
   return (
     <>
-      <div className="project-page-container">
-        <h1>Introduction</h1>
-        <div>
-          A discord bot automatically removes banned words and replies warning
-          message
-        </div>
-        <div>
-          <h2>Goal</h2>
-          <p>
-            ban the use of certain emojis from certain users. The bot will
-            delete the emoji immediately.
-          </p>
-        </div>
-        <div>
-          <h2>Video Demonstration</h2>
-          <video controls>
-            <source src="path_to_video" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
-        </div>
+      <div className="project-page-section-container">
+        <h2>Introduction</h2>
+        <p>
+          A discord bot automatically removes banned words and emojis from
+          certain users on the server. You can configure the banned words,
+          emojis, and affected users by using commands.
+        </p>
       </div>
     </>
   );
