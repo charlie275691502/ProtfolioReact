@@ -20,7 +20,7 @@ function App() {
               element={
                 <BaseProjectPage
                   title={project.title}
-                  image={project.image}
+                  images={project.images}
                   skillIcons={project.skillIcons}
                   githubUrl={project.githubUrl}
                   demoUrl={project.demoUrl}

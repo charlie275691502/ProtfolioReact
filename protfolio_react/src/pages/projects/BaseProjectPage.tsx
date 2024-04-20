@@ -1,10 +1,11 @@
 import Button from "../../components/Button";
+import Carousel from "../../components/Carousel";
 import NavigateBar from "../../components/NavigateBar";
 import "../../styles/ProjectPage.css";
 
 interface Props {
   title: string;
-  image: string;
+  images: string[];
   skillIcons: JSX.Element;
   githubUrl?: string;
   demoUrl?: string;
@@ -13,7 +14,7 @@ interface Props {
 
 const BaseProjectPage = ({
   title,
-  image,
+  images,
   skillIcons,
   githubUrl,
   demoUrl,
@@ -25,7 +26,7 @@ const BaseProjectPage = ({
       <div>
         <div className="project-page-container">
           <div className="project-page-head-container">
-            <img src={image} alt={image} className="project-page-head-image" />
+            <Carousel images={images} />
             <h1 className="project-title">{title}</h1>
             <div className="technology-icon-container ">{skillIcons}</div>
             {githubUrl && (

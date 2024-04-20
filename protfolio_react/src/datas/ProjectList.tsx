@@ -14,7 +14,7 @@ import GenerationOfAuthority from "../pages/projects/GenerationOfAuthority";
 export const ProjectDatas = [
   {
     title: "Inferring Column Types of Dataset",
-    image: inferring_column_types_of_the_dataset_image,
+    images: [inferring_column_types_of_the_dataset_image],
     skillIcons: (
       <>
         <Icon type={IconType.Git} />
@@ -30,7 +30,7 @@ export const ProjectDatas = [
   },
   {
     title: "Web Crawler for Commodity Exchange",
-    image: web_crawler_for_commodity_exchange,
+    images: [web_crawler_for_commodity_exchange],
     skillIcons: (
       <>
         <Icon type={IconType.Git} />
@@ -44,7 +44,7 @@ export const ProjectDatas = [
   },
   {
     title: "Discord Channel Junitor",
-    image: discord_channel_junitor,
+    images: [discord_channel_junitor],
     skillIcons: (
       <>
         <Icon type={IconType.Git} />
@@ -58,7 +58,7 @@ export const ProjectDatas = [
   },
   {
     title: "Soul Star",
-    image: soul_star,
+    images: [soul_star],
     skillIcons: (
       <>
         <Icon type={IconType.Git} />
@@ -72,7 +72,7 @@ export const ProjectDatas = [
   },
   {
     title: "Generation of Authority",
-    image: generation_of_authority,
+    images: [generation_of_authority],
     skillIcons: (
       <>
         <Icon type={IconType.Git} />

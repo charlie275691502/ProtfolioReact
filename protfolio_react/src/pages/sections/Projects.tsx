@@ -17,7 +17,7 @@ const Projects = () => {
                 <ProjectCard
                   page_path={"projects/" + slugify(project.title) + "/"}
                   title={project.title}
-                  image={project.image}
+                  image={project.images[0]}
                   skillIcons={project.skillIcons}
                 />
               </div>
