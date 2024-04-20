@@ -1,9 +1,9 @@
 interface Props {
   images: string[];
-  isDark?: boolean;
+  isDark: boolean;
 }
 
-const Carousel = ({ images, isDark = false }: Props) => {
+const Carousel = ({ images, isDark }: Props) => {
   return (
     <div
       id="carouselExampleIndicators"

@@ -1,5 +1,5 @@
 import Button from "../../components/Button";
-import Carousel from "../../components/Carousel";
+import ImagesDisplayer from "../../components/ImagesDisplayer";
 import NavigateBar from "../../components/NavigateBar";
 import "../../styles/ProjectPage.css";
 
@@ -26,7 +26,7 @@ const BaseProjectPage = ({
       <div>
         <div className="project-page-container">
           <div className="project-page-head-container">
-            <Carousel images={images} />
+            <ImagesDisplayer images={images} />
             <h1 className="project-title">{title}</h1>
             <div className="technology-icon-container ">{skillIcons}</div>
             {githubUrl && (
