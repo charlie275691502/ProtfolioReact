@@ -1,41 +1,44 @@
 import "../../styles/ProjectPage.css";
-
+import demo_video from "../../assets/inferring_column_types_of_dataset_demo_video.mov";
 const InferingColumnTypesOfDataset = () => {
   return (
     <>
       <div className="project-page-section-container">
         <h2>Introduction</h2>
         <p>
-          A Fullstack website that can upload dataset, infer the data type of
-          each column, perform data cleaning and processing, and download
-          processed dataset.
+          A Fullstack website that can upload datasets, infer the data type of
+          each column, perform data processing, and download the processed
+          datasets.
         </p>
       </div>
       <div className="project-page-section-container">
-        <h2>What is Data Inferring</h2>
+        <h2>Main Objective: Data Inferring</h2>
         <p>
-          I search every cell in the column, count the number of each data
-          types, then decide a best type for this column. I also use
-          multi-thread processing to increase the efficiency. In conclusion, it
-          takes 17 seconds to infer a 50MB dataset on my computer, and 378
-          seconds for a 1 GB one.
+          When we collect raw data for Machine Learning projects, it is quite
+          often that attribute types remain un-labelled and manually identifying
+          each attribute in a Giga-bytes dataset is a tedious task. Let alone
+          the precise attribute types are crucial for data cleaning and
+          preprocessing.
+        </p>
+        <p>
+          This project aims to solve this problem by automatically detecting
+          values and suggesting the data type for each attribute. Human workers
+          can then review the results and modify the mislabelled attribute
+          types.
         </p>
       </div>
       <div className="project-page-section-container">
-        <h2>Video Demonstration</h2>
-        <video controls className="project-page-video">
-          <source src="path_to_video" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
+        <h2>Performance</h2>
+        <p>
+          This project uses Celery, a Python multiprocessing library, to
+          implement multi-threading data inferring features.
+        </p>
+        <p>17 seconds for the 50 MB dataset</p>
+        <p>378 seconds for the 1 GB dataset</p>
       </div>
       <div className="project-page-section-container">
-        <h2>Logic Flow</h2>
-        <ul>
-          <li>Upload dataset</li>
-          <li>Infer datatype for each column</li>
-          <li>Manually change datatype of each column</li>
-          <li>Download dataset</li>
-        </ul>
+        <h2>Demo</h2>
+        <video controls src={demo_video} className="project-page-video" />
       </div>
     </>
   );

@@ -1,4 +1,5 @@
 import {
+  SiCelery,
   SiCplusplus,
   SiCsharp,
   SiDiscord,
@@ -38,6 +39,7 @@ export enum IconType {
   Microsoftexcel,
   Discord,
   Selenium,
+  Celery,
 }
 
 const IconDatas = [
@@ -125,6 +127,11 @@ const IconDatas = [
     type: IconType.Selenium,
     title: "Selenium",
     component: <SiSelenium className="technology-icon" />,
+  },
+  {
+    type: IconType.Celery,
+    title: "Celery",
+    component: <SiCelery className="technology-icon" />,
   },
 ];
 

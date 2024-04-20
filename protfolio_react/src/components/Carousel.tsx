@@ -15,7 +15,7 @@ const Carousel = ({ images, isDark }: Props) => {
             type="button"
             data-bs-target="#carouselExampleIndicators"
             data-bs-slide-to={`${index}`}
-            className={`${index == 0 && "active"}`}
+            className={`${index === 0 && "active"}`}
             aria-current="true"
             aria-label={`Slide ${index + 1}`}
           />
@@ -23,7 +23,7 @@ const Carousel = ({ images, isDark }: Props) => {
       </div>
       <div className="carousel-inner">
         {images.map((image, index) => (
-          <div className={`carousel-item ${index == 0 && "active"}`}>
+          <div className={`carousel-item ${index === 0 && "active"}`}>
             <img src={image} className="d-block w-100" alt={image} />
           </div>
         ))}

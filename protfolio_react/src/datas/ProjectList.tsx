@@ -1,9 +1,9 @@
 import Icon, { IconType } from "../components/Icon";
-import inferring_column_types_of_the_dataset_image from "../images/inferring_column_types_of_dataset.png";
-import web_crawler_for_commodity_exchange from "../images/web_crawler_for_commodity_exchange.png";
-import discord_channel_junitor from "../images/discord_channel_junitor.png";
-import soul_star from "../images/soul_star.png";
-import generation_of_authority from "../images/generation_of_authority.png";
+import inferring_column_types_of_the_dataset_image_thumbnail from "../assets/inferring_column_types_of_dataset_thumbnail.png";
+import web_crawler_for_commodity_exchange_thumbnail from "../assets/web_crawler_for_commodity_exchange_thumbnail.png";
+import discord_channel_junitor_thumbnail from "../assets/discord_channel_junitor_thumbnail.png";
+import soul_star_thumbnail from "../assets/soul_star_thumbnail.png";
+import generation_of_authority_thumbnail from "../assets/generation_of_authority_thumbnail.png";
 
 import WebCrawlerForCommodityExchange from "../pages/projects/WebCrawlerForCommodityExchange";
 import InferingColumnTypesOfDataset from "../pages/projects/InferingColumnTypesOfDataset";
@@ -14,13 +14,14 @@ import GenerationOfAuthority from "../pages/projects/GenerationOfAuthority";
 export const ProjectDatas = [
   {
     title: "Inferring Column Types of Dataset",
-    images: [inferring_column_types_of_the_dataset_image],
+    images: [inferring_column_types_of_the_dataset_image_thumbnail],
     skillIcons: (
       <>
         <Icon type={IconType.Git} />
         <Icon type={IconType.Django} />
         <Icon type={IconType.React} />
         <Icon type={IconType.Python} />
+        <Icon type={IconType.Celery} />
         <Icon type={IconType.Javascript} />
       </>
     ),
@@ -30,7 +31,7 @@ export const ProjectDatas = [
   },
   {
     title: "Web Crawler for Commodity Exchange",
-    images: [web_crawler_for_commodity_exchange],
+    images: [web_crawler_for_commodity_exchange_thumbnail],
     skillIcons: (
       <>
         <Icon type={IconType.Git} />
@@ -44,7 +45,7 @@ export const ProjectDatas = [
   },
   {
     title: "Discord Channel Junitor",
-    images: [discord_channel_junitor],
+    images: [discord_channel_junitor_thumbnail],
     skillIcons: (
       <>
         <Icon type={IconType.Git} />
@@ -58,7 +59,7 @@ export const ProjectDatas = [
   },
   {
     title: "Soul Star",
-    images: [soul_star],
+    images: [soul_star_thumbnail],
     skillIcons: (
       <>
         <Icon type={IconType.Git} />
@@ -72,7 +73,7 @@ export const ProjectDatas = [
   },
   {
     title: "Generation of Authority",
-    images: [generation_of_authority],
+    images: [generation_of_authority_thumbnail],
     skillIcons: (
       <>
         <Icon type={IconType.Git} />
