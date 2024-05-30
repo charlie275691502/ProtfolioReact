@@ -1,24 +1,27 @@
 {
   "files": {
-    "main.css": "/ProtfolioReact/static/css/main.a1d9575f.css",
-    "main.js": "/ProtfolioReact/static/js/main.1214f0c2.js",
+    "main.css": "/ProtfolioReact/static/css/main.11dd805b.css",
+    "main.js": "/ProtfolioReact/static/js/main.08f554e5.js",
     "static/js/453.3f0ac116.chunk.js": "/ProtfolioReact/static/js/453.3f0ac116.chunk.js",
+    "static/media/soul_star_demo_video.mov": "/ProtfolioReact/static/media/soul_star_demo_video.a54ae538f95136fde81e.mov",
     "static/media/inferring_column_types_of_dataset_demo_video.mov": "/ProtfolioReact/static/media/inferring_column_types_of_dataset_demo_video.43e7ac60ca2980c91e7c.mov",
     "static/media/soul_star_thumbnail.png": "/ProtfolioReact/static/media/soul_star_thumbnail.38f75856b29772c887f6.png",
     "static/media/generation_of_authority_thumbnail.png": "/ProtfolioReact/static/media/generation_of_authority_thumbnail.f6ef121639f8a33d6ba6.png",
+    "static/media/soul_star_cutscene.png": "/ProtfolioReact/static/media/soul_star_cutscene.315a23bc77411b3dd783.png",
     "static/media/discord_channel_junitor_thumbnail.png": "/ProtfolioReact/static/media/discord_channel_junitor_thumbnail.4b1e1856d60d8bc16b1d.png",
     "static/media/web_crawler_for_commodity_exchange_thumbnail.png": "/ProtfolioReact/static/media/web_crawler_for_commodity_exchange_thumbnail.ecd0d19f79bf37ba80b5.png",
+    "static/media/soul_star_open.png": "/ProtfolioReact/static/media/soul_star_open.dddad4b0b5b5d962e3fb.png",
     "static/media/web_crawler_for_commodity_exchange_excel.png": "/ProtfolioReact/static/media/web_crawler_for_commodity_exchange_excel.812e98de49ce21a38fe3.png",
     "static/media/inferring_column_types_of_dataset_thumbnail.png": "/ProtfolioReact/static/media/inferring_column_types_of_dataset_thumbnail.4fbca58018360610089b.png",
     "static/media/inferring_column_types_of_dataset_summary.png": "/ProtfolioReact/static/media/inferring_column_types_of_dataset_summary.a0645fe779af10061feb.png",
     "static/media/profile.jpg": "/ProtfolioReact/static/media/profile.0fa4d7380f5208af61b9.jpg",
     "index.html": "/ProtfolioReact/index.html",
-    "main.a1d9575f.css.map": "/ProtfolioReact/static/css/main.a1d9575f.css.map",
-    "main.1214f0c2.js.map": "/ProtfolioReact/static/js/main.1214f0c2.js.map",
+    "main.11dd805b.css.map": "/ProtfolioReact/static/css/main.11dd805b.css.map",
+    "main.08f554e5.js.map": "/ProtfolioReact/static/js/main.08f554e5.js.map",
     "453.3f0ac116.chunk.js.map": "/ProtfolioReact/static/js/453.3f0ac116.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a1d9575f.css",
-    "static/js/main.1214f0c2.js"
+    "static/css/main.11dd805b.css",
+    "static/js/main.08f554e5.js"
   ]
 }
