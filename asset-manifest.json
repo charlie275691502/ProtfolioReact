@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/ProtfolioReact/static/css/main.11dd805b.css",
-    "main.js": "/ProtfolioReact/static/js/main.08f554e5.js",
+    "main.js": "/ProtfolioReact/static/js/main.0f49fe94.js",
     "static/js/453.3f0ac116.chunk.js": "/ProtfolioReact/static/js/453.3f0ac116.chunk.js",
     "static/media/soul_star_demo_video.mov": "/ProtfolioReact/static/media/soul_star_demo_video.a54ae538f95136fde81e.mov",
     "static/media/inferring_column_types_of_dataset_demo_video.mov": "/ProtfolioReact/static/media/inferring_column_types_of_dataset_demo_video.43e7ac60ca2980c91e7c.mov",
     "static/media/soul_star_thumbnail.png": "/ProtfolioReact/static/media/soul_star_thumbnail.38f75856b29772c887f6.png",
     "static/media/generation_of_authority_thumbnail.png": "/ProtfolioReact/static/media/generation_of_authority_thumbnail.f6ef121639f8a33d6ba6.png",
+    "static/media/soul_star_battle.png": "/ProtfolioReact/static/media/soul_star_battle.82a574f7415f3d30e6e9.png",
     "static/media/soul_star_cutscene.png": "/ProtfolioReact/static/media/soul_star_cutscene.315a23bc77411b3dd783.png",
     "static/media/discord_channel_junitor_thumbnail.png": "/ProtfolioReact/static/media/discord_channel_junitor_thumbnail.4b1e1856d60d8bc16b1d.png",
     "static/media/web_crawler_for_commodity_exchange_thumbnail.png": "/ProtfolioReact/static/media/web_crawler_for_commodity_exchange_thumbnail.ecd0d19f79bf37ba80b5.png",
@@ -17,11 +18,11 @@
     "static/media/profile.jpg": "/ProtfolioReact/static/media/profile.0fa4d7380f5208af61b9.jpg",
     "index.html": "/ProtfolioReact/index.html",
     "main.11dd805b.css.map": "/ProtfolioReact/static/css/main.11dd805b.css.map",
-    "main.08f554e5.js.map": "/ProtfolioReact/static/js/main.08f554e5.js.map",
+    "main.0f49fe94.js.map": "/ProtfolioReact/static/js/main.0f49fe94.js.map",
     "453.3f0ac116.chunk.js.map": "/ProtfolioReact/static/js/453.3f0ac116.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.11dd805b.css",
-    "static/js/main.08f554e5.js"
+    "static/js/main.0f49fe94.js"
   ]
 }
