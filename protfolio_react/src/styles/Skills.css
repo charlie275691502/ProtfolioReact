@@ -18,6 +18,17 @@
   background-color: #f9f9f9;
 }
 
+@media (max-width: 1170px) {
+  .skills-section {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .skills-container {
+    width: 80%;
+  }
+}
+
 .skills-container-skill-container {
   display: flex;
   align-items: center;
