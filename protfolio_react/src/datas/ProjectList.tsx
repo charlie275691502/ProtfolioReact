@@ -1,5 +1,7 @@
 import Icon, { IconType } from "../components/Icon";
 import soul_star_thumbnail from "../assets/soul_star_thumbnail.png";
+import soul_star_cutscene from "../assets/soul_star_cutscene.png";
+import soul_star_open from "../assets/soul_star_open.png";
 import generation_of_authority_thumbnail from "../assets/generation_of_authority_thumbnail.png";
 import SoulStar from "../pages/projects/SoulStar";
 import GenerationOfAuthority from "../pages/projects/GenerationOfAuthority";
@@ -8,7 +10,7 @@ export const ProjectDatas = [
   {
     title: "Soul Star",
     thumbnail: soul_star_thumbnail,
-    images: [soul_star_thumbnail],
+    images: [soul_star_thumbnail, soul_star_cutscene, soul_star_open],
     darkThemeImageIndicator: false,
     skillIcons: (
       <>

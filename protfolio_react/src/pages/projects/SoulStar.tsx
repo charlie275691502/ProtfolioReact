@@ -1,28 +1,38 @@
+import demo_video from "../../assets/soul_star_demo_video.mov";
+import soul_star_cutscene from "../../assets/soul_star_cutscene.png";
+import soul_star_battle from "../../assets/soul_star_battle.png";
+
 const SoulStar = () => {
   return (
     <>
-      <div className="project-page-container">
-        <h1>Introduction</h1>
-        <div>
-          Soul Star is a turn-based strategy game. Here's the game screen of it.
-          SoulLand is a complete game which you can play through from start to
-          end.
-        </div>
-        <div>
-          <h2>Game Features</h2>
-          <p>
-            - Drag and drop your skills on the timeline. Play start. Then the
-            skills will play frame-by-frame. - Gameplay various characters and
-            enemies, unique skill sets, and diverse terrains.Cutscene
-          </p>
-        </div>
-        <div>
-          <h2>Video Demonstration</h2>
-          <video controls>
-            <source src="path_to_video" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
-        </div>
+      <div className="project-page-section-container">
+        <h2>Introduction</h2>
+        <p>
+          Soul Star is a turn-based strategy game where the players control
+          various characters, utilising their skills to fight the enemies and
+          reveal the truth of the world. The highlights of the battle mechanic
+          is that the player needs to decide the sequence of the skills cast
+          beforehand, providing complicated strategy possibilities.
+        </p>
+      </div>
+      <div className="project-page-section-container">
+        <h2>Game Features</h2>
+        <p>
+          Soul Star is a comprehensive single player RPG game, including battle,
+          cutscene, teams management, and equipment systems.
+        </p>
+        <img src={soul_star_cutscene} />
+        <p>
+          The unique battle mechanic provides different strategy possibilities.
+          Simply drag and drop the skills on the timeline. Play start. Then the
+          skills will play frame-by-frame. Gameplay various characters and
+          enemies, unique skill sets, and diverse terrains.Cutscene
+        </p>
+        <img src={soul_star_battle} />
+      </div>
+      <div className="project-page-section-container">
+        <h2>Demo</h2>
+        <video controls src={demo_video} className="project-page-video" />
       </div>
     </>
   );

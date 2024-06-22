@@ -1,4 +1,3 @@
-import "../../styles/ProjectPage.css";
 import demo_video from "../../assets/inferring_column_types_of_dataset_demo_video.mov";
 const InferingColumnTypesOfDataset = () => {
   return (
