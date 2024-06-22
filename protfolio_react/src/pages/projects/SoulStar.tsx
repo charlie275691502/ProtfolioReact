@@ -6,6 +6,12 @@ const SoulStar = () => {
   return (
     <>
       <div className="project-page-section-container">
+        <h2>Key Contributions</h2>
+        <li>Implementing all game features in code.</li>
+        <li>Designing and testing enemy AI.</li>
+        <li>Communicating with team members.</li>
+      </div>
+      <div className="project-page-section-container">
         <h2>Introduction</h2>
         <p>
           Soul Star is a turn-based strategy game where the players control

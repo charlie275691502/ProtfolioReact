@@ -2,6 +2,7 @@ import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import Footer from "./components/Footer";
 import { ProjectDatas } from "./datas/ProjectList";
+import { MiniProjectDatas } from "./datas/MiniProjectList";
 import slugify from "@sindresorhus/slugify";
 import BaseProjectPage from "./pages/projects/BaseProjectPage";
 import Home from "./pages/Home";
@@ -13,7 +14,7 @@ function App() {
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />}></Route>
-        {ProjectDatas.map((project) => {
+        {ProjectDatas.concat(MiniProjectDatas).map((project) => {
           return (
             <Route
               path={"/projects/" + slugify(project.title)}
