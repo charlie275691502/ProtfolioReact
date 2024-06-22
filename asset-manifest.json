@@ -1,24 +1,34 @@
 {
   "files": {
     "main.css": "/ProtfolioReact/static/css/main.6f6fbc0d.css",
-    "main.js": "/ProtfolioReact/static/js/main.2031ba43.js",
+    "main.js": "/ProtfolioReact/static/js/main.2d4bf799.js",
     "static/js/453.3f0ac116.chunk.js": "/ProtfolioReact/static/js/453.3f0ac116.chunk.js",
+    "static/media/cat_fight_demo_video.mp4": "/ProtfolioReact/static/media/cat_fight_demo_video.fff0f09ae318eb20571a.mp4",
+    "static/media/soul_star_demo_video.mov": "/ProtfolioReact/static/media/soul_star_demo_video.a54ae538f95136fde81e.mov",
     "static/media/inferring_column_types_of_dataset_demo_video.mov": "/ProtfolioReact/static/media/inferring_column_types_of_dataset_demo_video.43e7ac60ca2980c91e7c.mov",
     "static/media/soul_star_thumbnail.png": "/ProtfolioReact/static/media/soul_star_thumbnail.38f75856b29772c887f6.png",
     "static/media/generation_of_authority_thumbnail.png": "/ProtfolioReact/static/media/generation_of_authority_thumbnail.f6ef121639f8a33d6ba6.png",
+    "static/media/soul_star_battle.png": "/ProtfolioReact/static/media/soul_star_battle.82a574f7415f3d30e6e9.png",
+    "static/media/soul_star_cutscene.png": "/ProtfolioReact/static/media/soul_star_cutscene.315a23bc77411b3dd783.png",
     "static/media/discord_channel_junitor_thumbnail.png": "/ProtfolioReact/static/media/discord_channel_junitor_thumbnail.4b1e1856d60d8bc16b1d.png",
     "static/media/web_crawler_for_commodity_exchange_thumbnail.png": "/ProtfolioReact/static/media/web_crawler_for_commodity_exchange_thumbnail.ecd0d19f79bf37ba80b5.png",
+    "static/media/soul_star_open.png": "/ProtfolioReact/static/media/soul_star_open.dddad4b0b5b5d962e3fb.png",
+    "static/media/cat_fight_reward.png": "/ProtfolioReact/static/media/cat_fight_reward.302fe25859506eb53458.png",
+    "static/media/cat_fight_deck.png": "/ProtfolioReact/static/media/cat_fight_deck.c95315978fca4630dc98.png",
     "static/media/web_crawler_for_commodity_exchange_excel.png": "/ProtfolioReact/static/media/web_crawler_for_commodity_exchange_excel.812e98de49ce21a38fe3.png",
     "static/media/inferring_column_types_of_dataset_thumbnail.png": "/ProtfolioReact/static/media/inferring_column_types_of_dataset_thumbnail.4fbca58018360610089b.png",
     "static/media/inferring_column_types_of_dataset_summary.png": "/ProtfolioReact/static/media/inferring_column_types_of_dataset_summary.a0645fe779af10061feb.png",
+    "static/media/cat_fight_stage_3.png": "/ProtfolioReact/static/media/cat_fight_stage_3.e4c43f72862f20dba768.png",
     "static/media/profile.jpg": "/ProtfolioReact/static/media/profile.0fa4d7380f5208af61b9.jpg",
+    "static/media/cat_fight_stage_2.png": "/ProtfolioReact/static/media/cat_fight_stage_2.e6a3b2a95348eebd8839.png",
+    "static/media/cat_fight_thumbnail.png": "/ProtfolioReact/static/media/cat_fight_thumbnail.02e3aee7cd260d9e6c47.png",
     "index.html": "/ProtfolioReact/index.html",
     "main.6f6fbc0d.css.map": "/ProtfolioReact/static/css/main.6f6fbc0d.css.map",
-    "main.2031ba43.js.map": "/ProtfolioReact/static/js/main.2031ba43.js.map",
+    "main.2d4bf799.js.map": "/ProtfolioReact/static/js/main.2d4bf799.js.map",
     "453.3f0ac116.chunk.js.map": "/ProtfolioReact/static/js/453.3f0ac116.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6f6fbc0d.css",
-    "static/js/main.2031ba43.js"
+    "static/js/main.2d4bf799.js"
   ]
 }
