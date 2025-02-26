@@ -38,6 +38,10 @@ export const SkillProficiencySoftwareDatas = [
     score: 80,
   },
   {
+    iconType: IconType.React,
+    score: 80,
+  },
+  {
     iconType: IconType.Googlesheets,
     score: 80,
   },
@@ -46,8 +50,8 @@ export const SkillProficiencySoftwareDatas = [
     score: 70,
   },
   {
-    iconType: IconType.React,
-    score: 60,
+    iconType: IconType.Godot,
+    score: 50,
   },
   {
     iconType: IconType.Docker,

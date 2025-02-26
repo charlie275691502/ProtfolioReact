@@ -6,6 +6,7 @@ import {
   SiDjango,
   SiDocker,
   SiGit,
+  SiGodotengine,
   SiGooglesheets,
   SiHtml5,
   SiJavascript,
@@ -40,6 +41,7 @@ export enum IconType {
   Discord,
   Selenium,
   Celery,
+  Godot,
 }
 
 const IconDatas = [
@@ -132,6 +134,11 @@ const IconDatas = [
     type: IconType.Celery,
     title: "Celery",
     component: <SiCelery className="technology-icon" />,
+  },
+  {
+    type: IconType.Godot,
+    title: "Godot",
+    component: <SiGodotengine className="technology-icon" />,
   },
 ];
 
