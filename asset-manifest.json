@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ProtfolioReact/static/css/main.6f6fbc0d.css",
-    "main.js": "/ProtfolioReact/static/js/main.2d4bf799.js",
+    "main.js": "/ProtfolioReact/static/js/main.5e011c9c.js",
     "static/js/453.3f0ac116.chunk.js": "/ProtfolioReact/static/js/453.3f0ac116.chunk.js",
     "static/media/cat_fight_demo_video.mp4": "/ProtfolioReact/static/media/cat_fight_demo_video.fff0f09ae318eb20571a.mp4",
     "static/media/soul_star_demo_video.mov": "/ProtfolioReact/static/media/soul_star_demo_video.a54ae538f95136fde81e.mov",
@@ -22,13 +22,15 @@
     "static/media/profile.jpg": "/ProtfolioReact/static/media/profile.0fa4d7380f5208af61b9.jpg",
     "static/media/cat_fight_stage_2.png": "/ProtfolioReact/static/media/cat_fight_stage_2.e6a3b2a95348eebd8839.png",
     "static/media/cat_fight_thumbnail.png": "/ProtfolioReact/static/media/cat_fight_thumbnail.02e3aee7cd260d9e6c47.png",
+    "static/media/knight_thumbnail.png": "/ProtfolioReact/static/media/knight_thumbnail.93560e22d236364684ad.png",
+    "static/media/knight_enemy.png": "/ProtfolioReact/static/media/knight_enemy.7af6eb9e18d2b4bee760.png",
     "index.html": "/ProtfolioReact/index.html",
     "main.6f6fbc0d.css.map": "/ProtfolioReact/static/css/main.6f6fbc0d.css.map",
-    "main.2d4bf799.js.map": "/ProtfolioReact/static/js/main.2d4bf799.js.map",
+    "main.5e011c9c.js.map": "/ProtfolioReact/static/js/main.5e011c9c.js.map",
     "453.3f0ac116.chunk.js.map": "/ProtfolioReact/static/js/453.3f0ac116.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6f6fbc0d.css",
-    "static/js/main.2d4bf799.js"
+    "static/js/main.5e011c9c.js"
   ]
 }
