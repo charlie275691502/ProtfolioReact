@@ -14,6 +14,7 @@ import {
   SiPostgresql,
   SiPython,
   SiReact,
+  SiRust,
   SiSelenium,
   SiUnity,
 } from "react-icons/si";
@@ -42,6 +43,7 @@ export enum IconType {
   Selenium,
   Celery,
   Godot,
+  Rust,
 }
 
 const IconDatas = [
@@ -139,6 +141,11 @@ const IconDatas = [
     type: IconType.Godot,
     title: "Godot",
     component: <SiGodotengine className="technology-icon" />,
+  },
+  {
+    type: IconType.Rust,
+    title: "Rust",
+    component: <SiRust className="technology-icon" />,
   },
 ];
 

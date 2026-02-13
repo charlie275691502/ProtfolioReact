@@ -12,7 +12,7 @@ export const SkillProficiencyLanguageDatas = [
   },
   {
     iconType: IconType.Javascript,
-    score: 50,
+    score: 70,
   },
   {
     iconType: IconType.Cplusplus,

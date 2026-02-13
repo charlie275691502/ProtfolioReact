@@ -1,4 +1,14 @@
 import Icon, { IconType } from "../components/Icon";
+import cultivation_simulator_thumbnail from "../assets/cultivation_simulator_thumbnail.png";
+import cultivation_simulator_1 from "../assets/cultivation_simulator_1.png";
+import cultivation_simulator_2 from "../assets/cultivation_simulator_2.png";
+import cultivation_simulator_3 from "../assets/cultivation_simulator_3.png";
+import cultivation_simulator_4 from "../assets/cultivation_simulator_4.png";
+import cultivation_simulator_5 from "../assets/cultivation_simulator_5.png";
+
+
+
+
 import soul_star_thumbnail from "../assets/soul_star_thumbnail.png";
 import soul_star_cutscene from "../assets/soul_star_cutscene.png";
 import soul_star_open from "../assets/soul_star_open.png";
@@ -13,8 +23,24 @@ import generation_of_authority_thumbnail from "../assets/generation_of_authority
 import SoulStar from "../pages/projects/SoulStar";
 import GenerationOfAuthority from "../pages/projects/GenerationOfAuthority";
 import CatFight from "../pages/projects/CatFight";
+import CultivationSimulator from "../pages/projects/CultivationSimulator";
 
 export const ProjectDatas = [
+  {
+    title: "Cultivation Simulator",
+    thumbnail: cultivation_simulator_thumbnail,
+    images: [cultivation_simulator_thumbnail, cultivation_simulator_1, cultivation_simulator_2, cultivation_simulator_3, cultivation_simulator_4, cultivation_simulator_5],
+    darkThemeImageIndicator: false,
+    skillIcons: (
+      <>
+        <Icon type={IconType.Git} />
+        <Icon type={IconType.Unity} />
+        <Icon type={IconType.Csharp} />
+        <Icon type={IconType.Rust} />
+      </>
+    ),
+    content: <CultivationSimulator />,
+  },
   {
     title: "Soul Star",
     thumbnail: soul_star_thumbnail,
