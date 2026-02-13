@@ -5,6 +5,17 @@ export enum ExperienceType {
 
 export const ExperienceList = [
   {
+    type: ExperienceType.Work,
+    date: "Jun 2025 - Present",
+    title: "Mid-Level Frontend Developer Part-time",
+    subTitle: "Delphinus Lab, Sydney",
+    bulletPoints: [
+      "Developed multiple interactive games using React, delivering engaging user experiences and responsive interfaces.",
+      "Implemented backend services and database solutions using Sanity CMS for managing user-uploaded images.",
+      "Engineered a Unity game independently as the sole engineer, handling architecture and implementation.",
+    ],
+  },
+  {
     type: ExperienceType.Education,
     date: "Feb 2024 - Nov 2025",
     title: "Master of Artificial Intelligence",

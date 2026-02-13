@@ -29,7 +29,7 @@ export const MiniProjectDatas = [
     content: <Knight />,
   },
   {
-    title: "Inferring Column Types of Dataset",
+    title: "Data Engineering Practice",
     thumbnail: inferring_column_types_of_the_dataset_image_thumbnail,
     images: [
       inferring_column_types_of_the_dataset_image_thumbnail,
@@ -51,7 +51,7 @@ export const MiniProjectDatas = [
     content: <InferingColumnTypesOfDataset />,
   },
   {
-    title: "Web Crawler for Commodity Exchange",
+    title: "Web Crawler for Video Game",
     thumbnail: web_crawler_for_commodity_exchange_thumbnail,
     images: [
       web_crawler_for_commodity_exchange_thumbnail,

@@ -18,14 +18,6 @@ export const SkillProficiencyLanguageDatas = [
     iconType: IconType.Cplusplus,
     score: 40,
   },
-  {
-    iconType: IconType.Java,
-    score: 40,
-  },
-  {
-    iconType: IconType.Html5,
-    score: 30,
-  },
 ];
 
 export const SkillProficiencySoftwareDatas = [
@@ -56,10 +48,6 @@ export const SkillProficiencySoftwareDatas = [
   {
     iconType: IconType.Docker,
     score: 50,
-  },
-  {
-    iconType: IconType.Postgresql,
-    score: 40,
   },
 ];
 

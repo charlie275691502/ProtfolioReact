@@ -9,12 +9,13 @@ const Intro = () => {
           <h1 className="intro-name">Charlie Wu</h1>
           <p className="intro-title">Software Engineer and Game Developer</p>
           <p className="intro-description">
-            Currently studying for a Master of Artificial Intelligence at the
-            University of Technology Sydney with four years of working
-            experience as a software engineer, seeking for internship to bring
-            strong understanding of multiple programming languages and team
-            communication skills to use. I am enthusiastic about software
-            development and able to deliver tasks on time.
+            Completed a Master of Artificial Intelligence from the University of
+            Technology Sydney with six years of working experience — four years in
+            game development and two years in frontend engineering. Passionate
+            about game development and software engineering, bringing strong
+            understanding of multiple programming languages and team
+            communication skills. I am enthusiastic about delivering high-quality
+            projects on time.
           </p>
         </div>
         <div className="intro-right-content">
