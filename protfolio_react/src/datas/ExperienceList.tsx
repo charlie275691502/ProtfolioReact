@@ -6,13 +6,24 @@ export enum ExperienceType {
 export const ExperienceList = [
   {
     type: ExperienceType.Work,
-    date: "Jun 2025 - Present",
+    date: "Jun 2024 - Present",
     title: "Mid-Level Frontend Developer Part-time",
     subTitle: "Delphinus Lab, Sydney",
     bulletPoints: [
       "Developed multiple interactive games using React, delivering engaging user experiences and responsive interfaces.",
       "Implemented backend services and database solutions using Sanity CMS for managing user-uploaded images.",
       "Engineered a Unity game independently as the sole engineer, handling architecture and implementation.",
+    ],
+  },
+  {
+    type: ExperienceType.Work,
+    date: "Sep 2024 - Nov 2024",
+    title: "Academic Tutor",
+    subTitle: "University of Technology Sydney",
+    bulletPoints: [
+      "Tutored Software Development Studio course, guiding student teams through agile development practices and project delivery.",
+      "Provided technical and non-technical feedback to student groups, helping them improve project architecture and collaboration.",
+      "Evaluated final presentations and assessed project deliverables against course learning objectives.",
     ],
   },
   {
